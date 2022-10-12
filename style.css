@@ -12,6 +12,7 @@ main {
     position: relative;
     display: flex;
     font-family: 'Outfit', sans-serif;
+    box-shadow: 0 20px 40px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card {
@@ -19,6 +20,7 @@ main {
     background-color: hsl(0, 0%, 100%);
     width: 320px;
     border-radius: 20px;
+    box-shadow: 0 20px 40px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card-qrcode {
