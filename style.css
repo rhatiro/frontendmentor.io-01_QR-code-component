@@ -20,13 +20,15 @@ main {
 @media (max-width: 768px) {
     main {
         max-width: 375px;
+        min-width: 320px;
     }
 }
 
 .card {
     margin: auto;
     background-color: hsl(0, 0%, 100%);
-    width: 320px;
+    min-width: 320px;
+    max-width: 320px;
     border-radius: 20px;
     box-shadow: 0 20px 40px 10px rgba(0, 0, 0, 0.1);
 }
