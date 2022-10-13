@@ -15,6 +15,13 @@ main {
     box-shadow: 0 20px 40px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* If the screen size is 768px or less, set the main width to 375px */
+@media (max-width: 768px) {
+    main {
+        max-width: 375px;
+    }
+}
+
 .card {
     margin: auto;
     background-color: hsl(0, 0%, 100%);
