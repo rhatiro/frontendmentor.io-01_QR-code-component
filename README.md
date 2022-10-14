@@ -25,7 +25,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   ">
   <div>
     <img 
-      src = "./design/solution/Screenshot%20solution%20desktop-design.png" 
+      src = "./design/solution/Screenshot-solution-desktop-design.png" 
       alt = "Screenshot solution desktop-design"
       style = "
         max-width: 100%;
@@ -34,7 +34,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   </div>
   <div style = "margin: 20px;">
     <img 
-      src = "./design/solution/Screenshot%20solution%20mobile-design.png" 
+      src = "./design/solution/Screenshot-solution-mobile-design.png" 
       alt = "Screenshot solution mobile-design"
       style = "
         max-width: 100%;
@@ -64,7 +64,7 @@ While simple, I had the opportunity to broaden my knowledge and practice while b
 
 Regarding the structuring of the content with HTML and the styling of the design with CSS, I was able to remember some forgotten concepts and acquire new learnings such as:
 
-- Apply external font family in CSS;
+- Apply external `font-family` in CSS using `<link>` tag in HTML;
 
 ```html
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -73,6 +73,10 @@ Regarding the structuring of the content with HTML and the styling of the design
   href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
   rel="stylesheet"
 />
+```
+
+```css
+font-family: "Outfit", sans-serif;
 ```
 
 - Adapt the design to different screen sizes setting CSS media queries;
@@ -86,7 +90,7 @@ Regarding the structuring of the content with HTML and the styling of the design
 }
 ```
 
-- And use some css properties like box-sizing and box-shadow.
+- And use some css properties like `box-sizing` and `box-shadow`.
 
 ```css
 box-sizing: border-box;
