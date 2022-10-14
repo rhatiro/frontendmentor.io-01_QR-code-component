@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -16,9 +16,32 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Screenshot solution desktop-design](./design/solution/Screenshot%20solution%20desktop-design.png)
-
-![Screenshot solution mobile-design](./design/solution/Screenshot%20solution%20mobile-design.png)
+<div style = "
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  ">
+  <div>
+    <img 
+      src = "./design/solution/Screenshot%20solution%20desktop-design.png" 
+      alt = "Screenshot solution desktop-design"
+      style = "
+        max-width: 100%;
+        max-height: 100vh;
+      ">
+  </div>
+  <div style = "margin: 20px;">
+    <img 
+      src = "./design/solution/Screenshot%20solution%20mobile-design.png" 
+      alt = "Screenshot solution mobile-design"
+      style = "
+        max-width: 100%;
+        max-height: 100vh;
+      ">
+  </div>
+</div>
 
 ### Links
 
@@ -42,23 +65,29 @@ While simple, I had the opportunity to broaden my knowledge and practice while b
 Regarding the structuring of the content with HTML and the styling of the design with CSS, I was able to remember some forgotten concepts and acquire new learnings such as:
 
 - Apply external font family in CSS;
+
 ```html
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
 ```
 
 - Adapt the design to different screen sizes setting CSS media queries;
+
 ```css
 @media (max-width: 768px) {
-    main {
-        max-width: 375px;
-        min-width: 320px;
-    }
+  main {
+    max-width: 375px;
+    min-width: 320px;
+  }
 }
 ```
 
 - And use some css properties like box-sizing and box-shadow.
+
 ```css
 box-sizing: border-box;
 box-shadow: 0 20px 40px 10px rgba(0, 0, 0, 0.1);
@@ -67,4 +96,3 @@ box-shadow: 0 20px 40px 10px rgba(0, 0, 0, 0.1);
 ## Author
 
 - Frontend Mentor - [@rhatiro](https://www.frontendmentor.io/profile/rhatiro)
-
