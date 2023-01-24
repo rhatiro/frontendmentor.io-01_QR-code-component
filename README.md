@@ -16,9 +16,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-<div>
-  <img src="./design/solution/Screenshot-solution-desktop-design.png" width="78%">
-  <img src="./design/solution/Screenshot-solution-mobile-design.png"  width="21.25%">
+<div max-width="50px">
+  <img src="./design/solution/Screenshot-solution-desktop-design.png" width="73.4%">
+  <img src="./design/solution/Screenshot-solution-mobile-design.png"  width="20%">
 </div>
 
 ### Links
