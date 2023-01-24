@@ -16,31 +16,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-<div style = "
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  ">
-  <div>
-    <img 
-      src = "./design/solution/Screenshot-solution-desktop-design.png" 
-      alt = "Screenshot solution desktop-design"
-      style = "
-        max-width: 100%;
-        max-height: 100vh;
-      ">
-  </div>
-  <div style = "margin: 20px;">
-    <img 
-      src = "./design/solution/Screenshot-solution-mobile-design.png" 
-      alt = "Screenshot solution mobile-design"
-      style = "
-        max-width: 100%;
-        max-height: 100vh;
-      ">
-  </div>
+<div>
+  <img src="./design/solution/Screenshot-solution-desktop-design.png" width="73.4%">
+  <img src="./design/solution/Screenshot-solution-mobile-design.png"  width="20%">
 </div>
 
 ### Links
